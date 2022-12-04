@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+<LinearLayout
+        android:id="@+id/top_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivNotificationImage"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon" />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvNotificationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center|start"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textColor="@color/main_orange"
+                android:text="@string/whistle_detection"
+                android:textSize="12sp" />
+
+      <!--      <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/btn_ring"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_2sdp"
+                    android:foreground="@drawable/ripple_effect"
+                    android:layout_marginEnd="20dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/iconn" />
+
+                <ImageView
+                    android:id="@+id/btn_flash"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:padding="@dimen/_2sdp"
+
+                    android:foreground="@drawable/ripple_effect"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="20dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/iconn" />
+
+                <ImageView
+                    android:id="@+id/btn_vib"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+
+                    android:foreground="@drawable/ripple_effect"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_margin="5dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/iconn" />
+            </LinearLayout>-->
+
+
+        </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btn_service"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.2" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

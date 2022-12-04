@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Clap To Find My Phone: Find Phone By Clapping</string>
+    <string name="find_phone_by_whistle">Find Phone By Clap</string>
+    <string name="chk_permission_dialog">Please enable permission from settings.Our app needs permission to work properly click on settings and go to permission and allow permission.Our App is not collecting anytype of personal information.</string>
+    <string name="exit">Exit</string>
+    <string name="go_to_setting">Settings</string>
+    <string name="permission_message">Please we required permission to run application</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="whistle_detection">Service is running to detect Clap</string>
+    <string name="select_tone">Please Select Ringtone</string>
+    <string name="service">Service is running</string>
+    <string name="goback">No</string>
+    <string name="permissionenabled">This Application will never use take any personal information but we need following permissions to run application perfectly. Thanks</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="exit_dialog">EXIT </string>
+    <string name="EXITorNO">Are you sure you want to exit?</string>
+
+    <string name="intersitialAds">Interstitial_Android</string>
+    <string name="game_id">4385457</string>
+
+</resources>
